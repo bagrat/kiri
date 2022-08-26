@@ -8,8 +8,8 @@ defmodule Kiri do
 
   ## Examples
 
-      iex> Kiri.hello()
-      :world
+      # iex> Kiri.hello()
+      # :world
 
   """
   def hello do

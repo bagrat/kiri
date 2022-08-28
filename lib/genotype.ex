@@ -8,7 +8,7 @@ defmodule Kiri.Genotype do
     defstruct [:id, :cortex_id, :action_fn, :vector_len, :fanin_ids]
   end
 
-  # FIXME: come up with a better name for input_idps
+  # FIXME: come up with a better name for input_idps - dendrites!
   defmodule Neuron do
     defstruct [:id, :cortex_id, :activation_fn, :input_idps, :output_ids]
   end
